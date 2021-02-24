@@ -9,13 +9,13 @@ const ui = importJsx('./ui');
 
 const cli = meow(`
 	Usage
-	  $ ink_react_team
+	  $ ink_react_droom_team
 
 	Options
 		--name  Your name
 
 	Examples
-	  $ ink_react_team --name=Jane
+	  $ ink_react_droom_team --name=Jane
 	  Hello, Jane
 `);
 

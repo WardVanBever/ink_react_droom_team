@@ -1,10 +1,8 @@
 {
-	"name": "ink_react_team",
+	"name": "ink_react_droom_team",
 	"version": "0.0.0",
 	"license": "MIT",
-	"bin": {
-		"ink_react_team": "cli.js"
-	},
+	"bin": "cli.js",
 	"engines": {
 		"node": ">=10"
 	},
