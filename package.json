@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"name": "droomteam",
 	"keywords": [
 		"devine-dev4-terminal"
@@ -8,6 +9,10 @@
 		"url": "https://github.com/WardVanBever/ink_react_droom_team.git"
 	},
 	"version": "0.0.1",
+=======
+	"name": "ink_react_droom_team",
+	"version": "0.0.0",
+>>>>>>> 2d68fbfb204cb3aefb2cfb22fe5b23edf09cc12a
 	"license": "MIT",
 	"bin": "cli.js",
 	"engines": {

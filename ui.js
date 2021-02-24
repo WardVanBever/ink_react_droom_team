@@ -4,9 +4,22 @@ const {Text} = require('ink');
 const importJsx = require("import-jsx");
 const Field = importJsx("./components/Field.js");
 const Test = importJsx("./components/Test.js");
+const Snake = importJsx("./components/Snake");
 
-const App = ({name = 'Stranger'}) => (
-	<Field></Field>
-);
+const App = ({name = 'Stranger'}) => {
+	const [screen, setScreen] = useState({w: 40, h: 30});
+	const [pos, setPos] = useState({x: 0, y: 0});
+	const [size, setSize] = useState(5);
+	const [snake, setSnake] = useState([]);
+
+	return (
+	<>
+		<Text>
+			Hello, <Text color="green">{name}</Text>
+		</Text>
+		<Snake pos={pos} size={size} screen={screen} />
+	</>
+	);
+};
 
 module.exports = App;
