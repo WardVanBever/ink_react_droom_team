@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/WardVanBever/ink_react_droom_team.git"
 	},
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"bin": {
 		"ink_react_team": "cli.js"
