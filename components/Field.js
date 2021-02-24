@@ -17,9 +17,7 @@ const Field = () => {
 			<Box>
 				<Box borderStyle="single" ref={ref} width={5} height={3}>
 				</Box>
-				<Box borderStyle="single" ref={ref} width={5} height={3}>
-					<Text> x </Text>
-				</Box>
+				
 				<Box borderStyle="single" ref={ref} width={5} height={3}>
 				</Box>
 			</Box>

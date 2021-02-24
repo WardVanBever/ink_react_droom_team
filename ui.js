@@ -1,5 +1,6 @@
 'use strict';
 const React = require('react');
+const { useState } = require('react');
 const {Text} = require('ink');
 const importJsx = require("import-jsx");
 const Field = importJsx("./components/Field.js");
@@ -14,9 +15,9 @@ const App = ({name = 'Stranger'}) => {
 
 	return (
 	<>
-		<Text>
+		{/* <Text>
 			Hello, <Text color="green">{name}</Text>
-		</Text>
+		</Text> */}
 		<Snake pos={pos} size={size} screen={screen} />
 	</>
 	);

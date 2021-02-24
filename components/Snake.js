@@ -5,19 +5,18 @@ const { Box, Text } = require('ink');
 const Snake = ({snake, windowSize}) => {
 	let screenData = [];
 	for (let i = 0; i < windowSize.h; i++) {
-		let row = [];
-		for (let j = 0; j < windowSize.w; j++) {
-			let checked = false;
-			snake.forEach(item => {
-				if (j === item[0] && i === item[1]) checked = true;
-			});
-			row.push(checked);
-		}
-		console.log(row);
-		screenData.push(row);
+		// let row = [];
+		// for (let j = 0; j < windowSize.w; j++) {
+		// 	let checked = false;
+		// 	snake.forEach(item => {
+		// 		if (j === item[0] && i === item[1]) checked = true;
+		// 	});
+		// 	// row.push(checked);
+		// }
+		// console.log(row);
+		// screenData.push(row);
 	}
 
-	console.log(snake);
 
 	return (
 		<Box flexDirection="column">
