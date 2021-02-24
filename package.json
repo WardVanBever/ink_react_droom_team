@@ -1,10 +1,15 @@
 {
-	"name": "ink_react_team",
-	"version": "0.0.0",
-	"license": "MIT",
-	"bin": {
-		"ink_react_team": "cli.js"
+	"name": "droomteam",
+	"keywords": [
+		"devine-dev4-terminal"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/WardVanBever/ink_react_droom_team.git"
 	},
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": "cli.js",
 	"engines": {
 		"node": ">=10"
 	},
@@ -20,6 +25,19 @@
 		"ink": "^3.0.8",
 		"meow": "^9.0.0",
 		"react": "^17.0.1"
+	},
+	"devDependencies": {
+		"@ava/babel": "^1.0.1",
+		"@babel/preset-env": "^7.13.5",
+		"@babel/preset-react": "^7.12.13",
+		"@babel/register": "^7.13.0",
+		"ava": "^3.15.0",
+		"chalk": "^4.1.0",
+		"eslint-config-xo-react": "^0.24.0",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"ink-testing-library": "^2.1.0",
+		"xo": "^0.38.1"
 	},
 	"ava": {
 		"babel": true,
@@ -38,18 +56,5 @@
 		"rules": {
 			"react/prop-types": "off"
 		}
-	},
-	"devDependencies": {
-		"@ava/babel": "^1.0.1",
-		"@babel/preset-env": "^7.13.5",
-		"@babel/preset-react": "^7.12.13",
-		"@babel/register": "^7.13.0",
-		"ava": "^3.15.0",
-		"chalk": "^4.1.0",
-		"eslint-config-xo-react": "^0.24.0",
-		"eslint-plugin-react": "^7.22.0",
-		"eslint-plugin-react-hooks": "^4.2.0",
-		"ink-testing-library": "^2.1.0",
-		"xo": "^0.38.1"
 	}
 }
